@@ -1,10 +1,10 @@
 INTRODUCTION
 ---
-The Drush Config Entity Export module provides some helper drush commands to
+The Drush Config Export Entity package provides some helper drush commands to
 export specific config entity (bundle) with all connected configuration like
 fields, displays etc.
 
-Tho fully rewritten and built upon this module is inspired by (sadly) long gone
+Tho fully rewritten and built upon this package is inspired by (sadly) long gone
 drupal console's [config:export:entity](https://drupalconsole.com/docs/vn/commands/config-export-entity) command.
 
 USAGE
@@ -23,7 +23,7 @@ drush ceenb user --module=custom_commerce_extender      # Export all configurati
 drush ceenb                                             # Start config entity export prompt
 ```
 
-The primary use case for this module is:
+The primary use case for this package is:
 - Branching
 - Custom module development
 - Recipes development
@@ -35,7 +35,7 @@ At least drush 12.5 is required.
 
 INSTALLATION
 ---
-Just require package with composer, this module is meant for development
+Just require package with composer, this package is meant for development
 ```shell
 composer require holo96/drush_config_export_entity --dev
 ```
