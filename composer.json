@@ -1,0 +1,23 @@
+{
+    "name": "holo96/drush_config_export_entity",
+    "type": "drupal-drush",
+    "authors": [
+        {
+            "name": "Davor Horvacki",
+            "role": "Maintainer",
+            "email": "davor@studiopresent.com"
+        }
+    ],
+    "description": "Helper commands to export specific config entity (bundle) with all connected configuration like fields, displays etc.",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Drupal\\drush_config_export_entity\\": "src"
+        }
+    },
+    "conflict": {
+        "drush/drush": "<12.5"
+    }
+}
